@@ -12,6 +12,7 @@ CREATE TABLE notes (
   `id` INT NOT NULL AUTO_INCREMENT,
   `title` VARCHAR(45) NOT NULL,
   `description` VARCHAR(45) NOT NULL,
+  `raca` INT NOT NULL,
   PRIMARY KEY (`id`));
 
 ```
